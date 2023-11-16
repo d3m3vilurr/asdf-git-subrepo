@@ -22,8 +22,6 @@
 Plugin:
 
 ```shell
-asdf plugin add git-subrepo
-# or
 asdf plugin add git-subrepo https://github.com/d3m3vilurr/asdf-git-subrepo.git
 ```
 
