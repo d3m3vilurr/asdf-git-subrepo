@@ -56,7 +56,7 @@ install_version() {
 
 	(
 		mkdir -p "$install_path"
-		cp -r "$ASDF_DOWNLOAD_PATH"/* "$install_path"
+		cp -r "$ASDF_DOWNLOAD_PATH"/{*,.[^.]*} "$install_path"
 		ln -sf "$install_path/lib/$TOOL_NAME" "$install_path/$TOOL_NAME"
 
 		local tool_cmd
